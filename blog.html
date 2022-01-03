@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <!----CSS Link----->
+    <link rel="stylesheet" href="css/style.css">
+    <!---Font-Awsome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+     <div class="sub-header">
+        <nav>
+            <a href="#"><img src="asseits/logo.png" alt="logo"></a>
+           <div class="nav-links" id="toogleBar">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+          <h1>Our Certificate & Online Program For 2021</h1>
+
+     </div>
+
+     <!---------Blog Page Content----------->
+     <section class="blog-content">
+         <div class="row">
+             <div class="blog-left">
+                 <img src="asseits/certificate.jpg" alt="carti">
+                  <h2>Our Certificate & Online Program For 2021</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sint praesentium incidunt distinctio, vitae quasi, quia consectetur placeat veniam officia, earum aliquam velit? Numquam, in exercitationem rerum optio aut tempore magni quidem ipsam, labore aliquam quisquam! Voluptatem quo repudiandae nobis nihil voluptas odio quia explicabo aperiam hic soluta animi quibusdam amet possimus ad modi iure debitis nemo aut consequuntur ullam beatae maxime delectus, porro eum? Quidem fuga dicta rerum animi minus? Autem optio inventore laudantium dolorem dolore, perferendis neque id cum, minus pariatur et, impedit deserunt obcaecati ipsa suscipit ut tenetur. Eius omnis, eaque aut dolorem cum corrupti earum doloremque?</p>
+                    <br>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem facere consequatur illum animi a quasi explicabo? Doloremque suscipit porro sed, ex, animi perspiciatis nostrum exercitationem aliquid vel quis perferendis impedit?</p>
+                   <br>
+                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad pariatur molestiae eveniet accusamus odio numquam consectetur, neque, soluta non deleniti adipisci ex, sint exercitationem similique quasi nihil autem. Rem explicabo quos minima rerum. Deleniti, voluptates aspernatur delectus obcaecati ab mollitia laboriosam est eveniet dignissimos sunt facere, voluptatum inventore cupiditate corrupti.Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nesciunt nisi quae cupiditate dolorem deleniti cum optio soluta nemo, atque obcaecati vitae eum, eos illo.</p>
+                    <br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quod veniam sed harum voluptatibus. Eveniet voluptatem velit blanditiis repellat porro consequatur numquam sint quasi cupiditate consequuntur dolorum tenetur quidem quae temporibus voluptate nobis ipsum culpa reiciendis optio, ab nostrum? Quia iure aspernatur odio maiores. Beatae architecto veniam laborum necessitatibus incidunt numquam excepturi fugit quia ipsum voluptas reprehenderit libero, culpa dolorum consequatur error, labore, fuga at illo. Corrupti itaque tempore voluptatum!</p>
+             
+                    <div class="comment-box">
+                            <h3>Leave a comment</h3>
+
+                            <form class="comment-form">
+                                <input type="text" placeholder="Enter Name">
+                                <input type="Email" placeholder="Enter Email">
+                                <textarea rows="5" placeholder="Your Comment"></textarea>
+                               <button type="submit" value="submit" class="hero-btn red-btn">POST COMMENT</button>
+                            </form>
+                    </div>
+
+                </div>
+             <div class="blog-right">
+                  <h3>Post Catgories</h3>
+                  <div>
+                      <span>Business Analytics</span>
+                      <span>21</span>
+                  </div>
+                  <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machin Learning</span>
+                    <span>47</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>33</span>
+                </div>
+                <div>
+                    <span>AutoCARD</span>
+                    <span>20</span>
+                </div>
+                <div>
+                    <span>Jarnalisiom</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>23</span>
+                </div>
+             </div>
+         </div>
+
+     </section>
+
+   
+
+    <!-----Footer------->
+    <div class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos totam esse sequi doloremque repudiandae, consequatur eum officia dolor ex! <br> Est corrupti placeat dicta atque illum temporibus explicabo, culpa repellendus eos!</p>
+        <div class="icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      <p class="Copyright">Copyright &copy;  by Tanzim Tayef</p>
+    </div>
+
+
+     <!----JavaScvcript------>
+     <script>
+         var toogleBar = document.getElementById("toogleBar");
+         function showMenu() {
+            toogleBar.style.right = "0";
+         }
+         function hideMenu() {
+            toogleBar.style.right = "-200px";
+         }
+     </script>
+</body>
+</html>

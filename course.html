@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course</title>
+    <!----CSS Link----->
+    <link rel="stylesheet" href="css/style.css">
+    <!---Font-Awsome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+     <div class="sub-header">
+        <nav>
+            <a href="#"><img src="asseits/logo.png" alt="logo"></a>
+           <div class="nav-links" id="toogleBar">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+          <h1>Our Courses</h1>
+
+     </div>
+
+
+     <!-----Course page Content----------->
+     <div class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.  Possimus id eum cumque enim cupiditate doloribus qui,<br> pariatur praesentium distinctio doloremque?</p>
+         <div class="row">
+             <div class="course-col">
+                 <h3>Intermediate</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat magnam ad eos quae error, totam ut ratione sed ex, inventore esse mollitia dolorem enim non nostrum voluptatibus est. Magnam, eaque?</p>
+             </div>
+
+             <div class="course-col">
+               <h3>Deree</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat magnam ad eos quae error, totam ut ratione sed ex, inventore esse mollitia dolorem enim non nostrum voluptatibus est. Magnam, eaque?</p>
+           </div>
+
+           <div class="course-col">
+               <h3>Programs</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat magnam ad eos quae error, totam ut ratione sed ex, inventore esse mollitia dolorem enim non nostrum voluptatibus est. Magnam, eaque?</p>
+           </div>
+         </div>
+    </div>
+
+
+    <!----faccilitices content ------------->
+    <div class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia officiis, commodi in quo ut est perferendis non accusamus sint?</p>
+         <div class="row">
+             <div class="facilities-col">
+                 <img src="asseits/library.png" alt="library">
+                 <h3>World Class Library</h3>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, molestias?</p>
+             </div>
+             <div class="facilities-col">
+                <img src="asseits/basketball.png" alt="library">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, molestias?</p>
+            </div>
+            <div class="facilities-col">
+                <img src="asseits/cafeteria.png" alt="library">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, molestias?</p>
+            </div>
+         </div>
+    </div>
+
+
+    <!-----Footer------->
+    <div class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos totam esse sequi doloremque repudiandae, consequatur eum officia dolor ex! <br> Est corrupti placeat dicta atque illum temporibus explicabo, culpa repellendus eos!</p>
+        <div class="icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      <p class="Copyright">Copyright &copy;  by Tanzim Tayef</p>
+    </div>
+
+
+     <!----JavaScvcript------>
+     <script>
+         var toogleBar = document.getElementById("toogleBar");
+         function showMenu() {
+            toogleBar.style.right = "0";
+         }
+         function hideMenu() {
+            toogleBar.style.right = "-200px";
+         }
+     </script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <!----CSS Link----->
+    <link rel="stylesheet" href="css/style.css">
+    <!---Font-Awsome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+     <div class="sub-header">
+        <nav>
+            <a href="#"><img src="asseits/logo.png" alt="logo"></a>
+           <div class="nav-links" id="toogleBar">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+          <h1>About Us</h1>
+
+     </div>
+
+
+     <!-----About  Us Content----------->
+     <section class="about-us">
+        
+            <div class="row">
+               <div class="about-col">
+                  <h1>We are the World's largest university</h1>
+                   <p>eatetur tenetur ratione eum nihil facere omnis suscipit voluptate debitis eveniet, necessitatibus hic ut cum, esse in corrupti iure accusamus quia assumenda molestiae, tempora quisquam. Beatae adipisci consequatur aperiam. Eveniet veritatis perferendis veniam repellat rem recusandae soluta molestiae voluptatum aspernatur. Impedit, debitis eius consequuntur minima totam earum quo adipisci consectetur perspiciatis temporibus eaque culpa labore vel. Inventore et adipisci, maiores laudantium veniam nam non harum labore nihil expedita laboriosam est possimus sit! Modi dicta temporibus nemo molestiae cupiditate magni!Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sequi similique ad aliquid cumque, rerum perferendis! Numquam at quam, sunt fugit id similique officiis voluptatibus quos sit repudiandae eligendi soluta in, assumenda quia aut odio? Laborum, quibusdam. Nostrum odit culpa sit minus eius distinctio ipsam vero, eos earum, autem voluptas.</p>
+                     <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+
+               <div class="about-col">
+                   <img src="asseits/about.jpg" alt="about">  
+            </div>
+            </div>
+     </section>
+
+
+
+    <!-----Footer------->
+    <div class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos totam esse sequi doloremque repudiandae, consequatur eum officia dolor ex! <br> Est corrupti placeat dicta atque illum temporibus explicabo, culpa repellendus eos!</p>
+        <div class="icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      <p class="Copyright">Copyright &copy;  by Tanzim Tayef</p>
+    </div>
+
+
+     <!----JavaScvcript------>
+     <script>
+         var toogleBar = document.getElementById("toogleBar");
+         function showMenu() {
+            toogleBar.style.right = "0";
+         }
+         function hideMenu() {
+            toogleBar.style.right = "-200px";
+         }
+     </script>
+</body>
+</html>
